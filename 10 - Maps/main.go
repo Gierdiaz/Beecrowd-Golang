@@ -23,4 +23,10 @@ func main() {
 	}
 
 	fmt.Println(person)
+
+	person["signo"] = map[string]string{
+		"signo": "Touro",
+	}
+
+	fmt.Println(person)
 }
