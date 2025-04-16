@@ -3,6 +3,11 @@ package main
 import "fmt"
 
 func main() {
+	// variável explícita
+	var name string = "Állison"
+	fmt.Println(name)
+
+
 	// o tipo de dado int representa um inteiro 
 	var numeroInt int = 10000 // Tamanho da arquitetura do computador
 	var numeroInt16 int16 = 10000
